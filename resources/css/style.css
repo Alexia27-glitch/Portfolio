@@ -217,7 +217,7 @@ header .logo img{
     width: 100%;
     min-height: 800px;
     background-color: var(--primary-text-color);
-    background-image: url('../img/aboutme.jpg');
+    background-image: url('../img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -228,8 +228,8 @@ header .logo img{
 .aboutme-card{
     position: absolute;
     top: -60px;
-    min-height: 95%;
-    max-height: 95%;
+    min-height: 80%;
+    max-height: 0%;
     background-color: var(--primary-text-color);
     padding: 60px 50px;
     box-sizing: border-box;
