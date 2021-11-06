@@ -24,6 +24,23 @@
     margin: 0;
   }
   
+  .logo {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-size: 2em;
+  }
+
+  .img-html {
+    width: 150px;
+    height: 150px;
+  }
+
+  ion-icon {
+    font-size: 200px;
+
+  }
   /**
    * Render the `main` element consistently in IE.
    */
