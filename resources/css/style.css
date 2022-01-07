@@ -274,11 +274,11 @@ header{
 }
 .aboutme-card{
     position: absolute;
-    min-height: 80%;
+    min-height: 90%;
     max-height: 0%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.726);
-    padding: 100px 60px 100px;
+    padding: 100px;
     box-sizing: border-box;
     /* border-radius: 0 15px 15px 0; */
     overflow: hidden;
@@ -434,3 +434,9 @@ footer{
 
 
 }
+
+/*
+----
+Corregir responsive nav burger que tapa cada vez que seleccionamos una opción
+----
+*/
