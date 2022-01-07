@@ -105,7 +105,7 @@ header{
     border-width: 300px;
     height: 500px;
     width: 500px;
-    position: relative;
+    
     
 }
 
@@ -141,14 +141,23 @@ header{
     width: 100%;
 }
 .header-title{
+    position: absolute;
+    top: 300px;
     font-size: 2.5rem;
     padding: 0;
     margin: 0;
     font-weight: bold;
 }
 .header-subtitle{
+    position: absolute;
+    bottom: 500px;
     font-size: 2em;
     margin: 0;
+}
+
+.project-title, .list-title{
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 
@@ -402,12 +411,27 @@ footer{
     }
     .header-title{
         position: absolute;
+        top: 300px;
+        left: 20px;
+    }
+    .header-subtitle{
+        position: absolute;
+        top: 400px;
+        left: 20px;
     }
     .draw{
         overflow: hidden;
     }
     .draw:after{
         overflow: hidden;
+    }
+
+    /* #menu-btn{
+        cursor: pointer;
+    } */
+    #menu #menu-btn-close{
+        position: absolute;
+        right: 60px;
     }
 
 }
