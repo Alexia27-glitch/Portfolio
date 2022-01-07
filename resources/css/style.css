@@ -1,17 +1,15 @@
-*{
-    /* border: 1px solid red; */
-}
 :root{
 
     --primary-text-color: #ffffff;
     --secondary-text-color: #0F62FF;
     --muted-text-color: #B2B8F1;
 }
+
 body{
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(264.99deg,#9f329f -52.92%,#1161fe 95.58%);
-
 }
+
 .bg-gradient-1{
     background: linear-gradient(264.99deg,#9f329f -52.92%,#1161fe 95.58%);
 }
@@ -19,6 +17,8 @@ body{
 .bg-white{  
     background-color: #ffffff;
 }
+
+/*Color de fuente nav fixed*/
 .bg-white li a, .bg-white #logo-i, .bg-white #menu-btn i{
     color: #000!important;
 }
@@ -39,6 +39,7 @@ header{
     color: var(--primary-text-color);
 
 }
+
 #nav{
     position: fixed;
     top: 0;
@@ -50,11 +51,13 @@ header{
     z-index: 10;
     transition: .3s;
 }
+
 #nav li{
     list-style-type: none;
     display: flex;
     align-items: center;
 }
+
 #nav li a{
     padding: 0 30px;
     text-decoration: none;
@@ -62,6 +65,7 @@ header{
     font-size: .9em;
     font-weight: 600;
 }
+
  /*color de fuente nav*/
 #nav li a, #logo-i{
     color: #fff;
@@ -82,6 +86,8 @@ header{
     overflow: hidden;
     transition: .4s;
 }
+
+
 /*Estilos en la fuente de menú responsive*/
 #menu a{
     text-decoration: none;
@@ -98,6 +104,7 @@ header{
     right: 30px;
 }
 
+/*ilustración*/
 .draw{
     border-style: solid;
     border-color: rgba(236, 159, 217, 0.198);
@@ -160,9 +167,13 @@ header{
     /* background-color: rgba(0, 0, 0, .1); */
 }
 
-/* .icon-project {
-    color: #ffffff;
-} */
+.img-portada img{
+    display: flex;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    opacity: .7;
+}
 
 .input-text{
     font-weight: bold;
