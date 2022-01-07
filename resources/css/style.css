@@ -105,14 +105,13 @@ header{
     border-width: 300px;
     height: 500px;
     width: 500px;
-    
-    
 }
 
 .draw:after{
     content: "";
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 480px;
+    right: 350px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -399,7 +398,7 @@ footer{
     background-color: #fff;
 }
 
-@media (max-width: 400px){
+@media (min-width: 400px){
     .img-portada img{
         display: flex;
         justify-content: center;
@@ -424,12 +423,14 @@ footer{
         overflow: hidden;
     }
 
-    /* #menu-btn{
-        cursor: pointer;
-    } */
+    #menu-btn{
+        position: absolute;
+        left: 25px;
+    }
     #menu #menu-btn-close{
         position: absolute;
         right: 60px;
     }
+
 
 }
