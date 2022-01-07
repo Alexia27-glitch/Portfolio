@@ -257,14 +257,11 @@ header{
     object-fit: contain;
 }
 
-.card-img  
-
-
 .card-text{
     font-size: .9em;
 }
 .aboutme{
-    position: relative;
+    position: relative; 
     width: 100%;
     min-height: 800px;
     background-color: var(--primary-text-color);
@@ -278,13 +275,13 @@ header{
 }
 .aboutme-card{
     position: absolute;
-    top: -60px;
     min-height: 80%;
     max-height: 0%;
-    background-color: var(--primary-text-color);
-    padding: 60px 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.726);
+    padding: 100px 60px 100px;
     box-sizing: border-box;
-    border-radius: 0 15px 15px 0;
+    /* border-radius: 0 15px 15px 0; */
     overflow: hidden;
 }
 .projects{
@@ -373,7 +370,8 @@ header{
 }
 
 .text-muted{
-    color: var(--muted-text-color)!important;
+    color: black;
+    font-weight: bold;
 }
 .text-primary{
     color: var(--primary-text-color);
